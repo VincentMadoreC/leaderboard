@@ -17,12 +17,12 @@
 
 | Mark | Description | Comment |
 | --- | --- | -- |
-| 2.0 | GitHub repository setup | See _this_ repo |
+| 2.0 | GitHub repository setup | [GitHub Repo](https://github.com/aforward/leaderboard) |
 | 2.5 | ER model  | See below |
 | 2.5 | Relational model / SQL schema | Both image and SQL below |
 | 1.0 | SQL examples to INSERT, UPDATE, SELECT and DELETE data | See examples below |
 | 1.0 | README.md contains all required information | See _this_ page |
-| 1.0 | Git usage (commit messages, all students involved) | See commit details in GitHub |
+| 1.0 | Git usage (commit messages, all students involved) | See [commit details in GitHub](https://github.com/aforward/leaderboard/commits/master) |
 | / 10 | |
 
 ## Application Description
@@ -33,7 +33,6 @@ details such as their name, date of birth, and identified gender.
 ## ER Model
 
 ADD IMAGE OF ER MODEL
-
 
 ## Relational Model
 
