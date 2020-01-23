@@ -34,13 +34,13 @@ details such as their name, date of birth, and identified gender.
 
 The ER diagram was created with [Lucidchart](/lucidchart.md).
 
-ADD IMAGE OF ER MODEL
+![ER Model](assets/ErModel.png)
 
 ## Relational Model
 
 The Relational Model (diagram) was also created with [Lucidchart](/lucidchart.md).
 
-ADD IMAGE OF RELATIONSL MODEL
+![ER Model](assets/RelationalModel.png)
 
 ## SQL Schema
 
