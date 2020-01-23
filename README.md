@@ -32,13 +32,13 @@ details such as their name, date of birth, and identified gender.
 
 ## ER Model
 
-Include _how_ I created this diagram
+The ER diagram was created with [Lucidchart](/lucidchart.md).
 
 ADD IMAGE OF ER MODEL
 
 ## Relational Model
 
-Include _how_ I created this diagram
+The Relational Model (diagram) was also created with [Lucidchart](/lucidchart.md).
 
 ADD IMAGE OF RELATIONSL MODEL
 
