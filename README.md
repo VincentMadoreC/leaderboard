@@ -32,13 +32,19 @@ details such as their name, date of birth, and identified gender.
 
 ## ER Model
 
+Include _how_ I created this diagram
+
 ADD IMAGE OF ER MODEL
 
 ## Relational Model
 
+Include _how_ I created this diagram
+
 ADD IMAGE OF RELATIONSL MODEL
 
 ## SQL Schema
+
+Include instructions on how to run the SQL
 
 ```sql
 ADD SQL SCHEMA DEFINITION
