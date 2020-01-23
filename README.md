@@ -44,16 +44,69 @@ The Relational Model (diagram) was also created with [Lucidchart](/lucidchart.md
 
 ## SQL Schema
 
-Include instructions on how to run the SQL
+This was testing using [Online SQL Interpreter](https://www.db-book.com/db7/university-lab-dir/sqljs.html)
+available with the [textbook](https://www.db-book.com/db7/index.html).
 
 ```sql
-ADD SQL SCHEMA DEFINITION
+CREATE TABLE athletes (
+  id int,
+  identifier varchar(50),
+  created timestamp,
+  modified timestamp,
+  name varchar(50),
+  dob date,
+  identified_gender varchar(6),
+  PRIMARY KEY (id)
+);
 ```
 
 ## Example SQL Queries
 
+After running the above schema, you can test the queries below in the [Online SQL Interpreter](https://www.db-book.com/db7/university-lab-dir/sqljs.html)
+Refresh the browser if you want to start over.
+
 ```sql
-ADD SQL EXAMPLES based on the schema above
+INSERT INTO athletes (id, name, identified_gender, dob)
+VALUES
+(1, 'Andrew', 'm', '1975-12-01'),
+(2, 'Ayana', 'F', '1998-06-11'),
+(3, 'Hayden', 'm', '1996-07-24'),
+(4, 'August', 'm', '1999-09-09');
 ```
 
+Let's find all 'F' athletes.
 
+```sql
+SELECT *
+FROM athletes
+WHERE identified_gender = 'F';
+```
+
+Let's update all 'm's to 'M's.
+
+```sql
+UPDATE athletes
+SET identified_gender = 'M'
+WHERE identified_gender = 'm';
+```
+
+And now all 'M' athletes.
+
+```sql
+SELECT *
+FROM athletes
+WHERE identified_gender = 'M';
+```
+
+Let's delete all athletes.
+
+```sql
+DELETE FROM athletes;
+```
+
+And now the table is empty.
+
+```sql
+SELECT count(*)
+FROM athletes;
+```
